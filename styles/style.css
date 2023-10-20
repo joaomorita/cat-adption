@@ -96,7 +96,7 @@ nav ul button:hover {
     height: 450px;
     background-color: var(--pink);
     border-radius: 10px;
-    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.500);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.408);
     -webkit-box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.497);
     -moz-box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.497);
     margin-top: 15px;
@@ -152,6 +152,7 @@ section .filter-card {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.408);
 }
 
 .search-input {
@@ -202,6 +203,7 @@ section .card-item {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.408);
 }
 
 section .card-item img {
@@ -296,6 +298,7 @@ section .card-item img {
     justify-content: space-between;
     background-color: var(--gray);
     border-radius: 8px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.408);
 }
 
 #aboutus {
@@ -323,10 +326,12 @@ section .card-item img {
     align-items: center;
     justify-content: center;
     padding: 50px 0px;
+    
 }
 
 .title-wrapper-features {
     padding: 20px 0px;
+    
 }
 
 .feature-card-block {
@@ -341,6 +346,7 @@ section .card-item img {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
     grid-gap: 30px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.408);
 }
 
 .feature-card-item {

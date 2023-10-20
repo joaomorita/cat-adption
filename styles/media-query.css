@@ -1,0 +1,53 @@
+/* Responsive adjustments */
+
+@media (max-width: 767px) {
+    nav ul li {
+        display: none;
+    }
+
+    section .filter-card {
+        display: none;
+    }
+
+
+    .left {
+        display: none;
+    }
+    
+
+    .feature-card-block {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 860px) {
+    section .filter-card {
+        display: none;
+    }
+
+    .feature-card-block {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+}
+
+@media (max-width: 912px) {
+    section .filter-card {
+        width: 100%;
+    }
+
+    .search-input {
+        width: 80%;
+    }
+
+    .feature-card-block {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
